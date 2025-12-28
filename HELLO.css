@@ -1,0 +1,9 @@
+h2{
+    background-color: cadetblue;
+    color: azure;
+    
+    font-style: italic;
+    border: 4px solid skyblue;
+    height: 150px;
+    width: 750px;
+}
