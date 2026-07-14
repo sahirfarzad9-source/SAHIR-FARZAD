@@ -45,7 +45,7 @@ def analyze_image(uploaded_file, style):
         model=config.GROQ_VISION_MODEL,
         messages=[
             {
-                "role": "user"
+                "role": "user",
                 "content": [
                     {"type": "text", "text": STYLES.get(style, STYLES["Normal"])},
                     {
